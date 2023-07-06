@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url(concept-power-strength-healthy-lifestyle-sport-powerful-attractive-muscular-man-gym.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.signup_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup_panel {
+  width: 90%;
+  max-width: 400px;
+  background: #ffffff;
+  color: #24315f;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 50px 30px;
+  box-sizing: border-box;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.signup_panel h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.signup_panel p {
+  margin-bottom: 10px;
+}
+
+.signup_panel input[type="text"],
+.signup_panel input[type="email"],
+.signup_panel input[type="password"],
+.signup_panel input[type="submit"] {
+  background-color: #f2f2f2;
+  color: #24315f;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.signup_panel input[type="submit"] {
+  cursor: pointer;
+}
+
+.options {
+  text-align: center;
+}
+
+.options p {
+  margin: 0;
+}
+
+.options a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
